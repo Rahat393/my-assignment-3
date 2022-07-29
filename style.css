@@ -8,3 +8,28 @@
     left: 50%;
     transform: translate(-50%, -5%);
 }
+
+@media only screen and (max-width:688px) {
+    .heading-text {
+        font-size: 13px;
+        transform: translate(-50%, -85%);
+    }
+
+    .courses {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course-image {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .heading-text {
+        font-size: 13px;
+
+        transform: translate(-50%, -85%);
+    }
+}
